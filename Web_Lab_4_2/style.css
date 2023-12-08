@@ -1,0 +1,42 @@
+.calc-container {
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.screen {
+    background-color: red;
+    font-size: 3rem;
+    color: white;
+    text-align: end;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.digits {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 250px;
+    height: 250px;
+}
+
+.other {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+}
+
+.key {
+    font-size: 2rem;
+    border-radius: 2rem;
+}
